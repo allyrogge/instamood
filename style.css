@@ -1,1 +1,59 @@
-/*you fill this in*/
+div span {
+margin: 10px;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+ }
+ 
+ h1 {
+  text-align: center;
+ }
+ 
+ .content {
+  background-color: pink;
+ }
+ #list {
+ 	margin: 0;
+ 	padding:0;
+ 	text-align: center;
+ 	font-size: 20px;
+ 	font-family: Verdana;
+ }
+ img {
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 125px;
+ }
+ 
+ #captiontext {
+   padding-top: 10px;
+  margin-bottom: 20px;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ .stats-bar {
+  text-align: center;
+  background-color: #D4E3C9;
+  width: 500px;
+  margin-left: 500px;
+ }
+ 
+ .stats {
+  font-size: 16px;
+ }
+ 
+ @media (max-width: 780px) {
+  img {
+    width: 400px;
+    height: auto;
+   } 
+ 
+   .stats-bar {
+    width: 400px;
+  }
+}
